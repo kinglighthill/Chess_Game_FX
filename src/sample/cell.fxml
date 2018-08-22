@@ -1,0 +1,35 @@
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.paint.Color?>
+
+<?import javafx.beans.property.SimpleMapProperty?>
+<fx:root type="StackPane" fx:id="context"
+         xmlns:fx="http://javafx.com/fxml">
+
+    <!--<properties>
+
+        <SimpleMapProperty>
+
+            <value> </value>
+
+        </SimpleMapProperty>
+
+    </properties>-->
+
+    <children>
+        <Rectangle fx:id="outerSquare" width="74" height="74" strokeWidth="1" strokeType="OUTSIDE" stroke="black"/>
+    </children>
+
+    <children>
+        <Rectangle fx:id="innerSquare" width="60" height="60" mouseTransparent="true"/>
+    </children>
+
+    <children>
+        <ImageView fx:id="image" mouseTransparent="true"/>
+    </children>
+
+</fx:root>

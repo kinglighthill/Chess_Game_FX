@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import sample.Cell?>
+
+<?import javafx.scene.shape.Rectangle?>
+<fx:root type="GridPane" xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml"
+         prefHeight="400.0" prefWidth="600.0"
+         hgap="0" vgap="0" >
+
+    <children>
+
+        <Cell fx:id="cell_11" GridPane.rowIndex="0" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_12" GridPane.rowIndex="0" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_13" GridPane.rowIndex="0" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_14" GridPane.rowIndex="0" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_15" GridPane.rowIndex="0" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_16" GridPane.rowIndex="0" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_17" GridPane.rowIndex="0" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_18" GridPane.rowIndex="0" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "#0078ff" />
+
+        <Cell fx:id="cell_21" GridPane.rowIndex="1" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_22" GridPane.rowIndex="1" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_23" GridPane.rowIndex="1" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_24" GridPane.rowIndex="1" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_25" GridPane.rowIndex="1" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_26" GridPane.rowIndex="1" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_27" GridPane.rowIndex="1" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_28" GridPane.rowIndex="1" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "white" />
+
+        <Cell fx:id="cell_31" GridPane.rowIndex="2" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_32" GridPane.rowIndex="2" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_33" GridPane.rowIndex="2" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_34" GridPane.rowIndex="2" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_35" GridPane.rowIndex="2" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_36" GridPane.rowIndex="2" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_37" GridPane.rowIndex="2" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_38" GridPane.rowIndex="2" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "#0078ff" />
+
+        <Cell fx:id="cell_41" GridPane.rowIndex="3" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_42" GridPane.rowIndex="3" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_43" GridPane.rowIndex="3" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_44" GridPane.rowIndex="3" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_45" GridPane.rowIndex="3" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_46" GridPane.rowIndex="3" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_47" GridPane.rowIndex="3" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_48" GridPane.rowIndex="3" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "white" />
+
+        <Cell fx:id="cell_51" GridPane.rowIndex="4" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_52" GridPane.rowIndex="4" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_53" GridPane.rowIndex="4" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_54" GridPane.rowIndex="4" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_55" GridPane.rowIndex="4" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_56" GridPane.rowIndex="4" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_57" GridPane.rowIndex="4" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_58" GridPane.rowIndex="4" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "#0078ff" />
+
+        <Cell fx:id="cell_61" GridPane.rowIndex="5" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_62" GridPane.rowIndex="5" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_63" GridPane.rowIndex="5" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_64" GridPane.rowIndex="5" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_65" GridPane.rowIndex="5" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_66" GridPane.rowIndex="5" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_67" GridPane.rowIndex="5" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_68" GridPane.rowIndex="5" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "white" />
+
+        <Cell fx:id="cell_71" GridPane.rowIndex="6" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_72" GridPane.rowIndex="6" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_73" GridPane.rowIndex="6" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_74" GridPane.rowIndex="6" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_75" GridPane.rowIndex="6" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_76" GridPane.rowIndex="6" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell_77" GridPane.rowIndex="6" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell_78" GridPane.rowIndex="6" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "#0078ff" />
+
+        <Cell fx:id="cell1" GridPane.rowIndex="7" GridPane.columnIndex="0" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell2" GridPane.rowIndex="7" GridPane.columnIndex="1" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell3" GridPane.rowIndex="7" GridPane.columnIndex="2" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell4" GridPane.rowIndex="7" GridPane.columnIndex="3" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell5" GridPane.rowIndex="7" GridPane.columnIndex="4" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell6" GridPane.rowIndex="7" GridPane.columnIndex="5" onMouseClicked="#listener1" color = "white" />
+        <Cell fx:id="cell7" GridPane.rowIndex="7" GridPane.columnIndex="6" onMouseClicked="#listener1" color = "#0078ff" />
+        <Cell fx:id="cell8" GridPane.rowIndex="7" GridPane.columnIndex="7" onMouseClicked="#listener1" color = "white" />
+
+    </children>
+
+</fx:root>
